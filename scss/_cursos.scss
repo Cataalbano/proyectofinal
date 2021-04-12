@@ -1,28 +1,26 @@
 
-  h1 {
-    font-size: $h1;
-    color:$color-primary;
-    padding:20% 20% 5% 20%;
-    font-weight: bolder;
-
-            @media only screen and (max-width:780px)
-                {
-                    font-size: 2.5em;
-                    padding:30% 15% 5% 15%;
-                    font-weight: bolder;
-                    text-align: center;
-                    line-height: 1em;
-                }
-            @media only screen and (max-width:380px)
-                {
-                    font-size: 2em;
-                    padding:40% 10% 5% 10%;
-                    font-weight: bolder;
-                    text-align: center;
-                    line-height: 1em;
-                }
-
-}
+  
+     
+    h1 {
+        font-size: $h1;
+        font-weight: bold;
+        color:$color-primary;
+        padding-top: 20%; 
+       
+        @media only screen and (max-width:780px)
+        {
+            padding-top:35%;
+            padding-bottom: 0;
+            font-size: 1em;
+            font-weight: bolder;
+        }
+        @media only screen and (max-width:380px)
+        {
+            padding-top: 45%;
+            font-size: 0.5em;
+            line-height: 0.8em;
+        }
+    }
 
 .grid-container {
     display: grid;

@@ -1,0 +1,28 @@
+@import"reset";
+//Index
+@import"variables";
+@import"navbar";
+@import"slider";
+@import"main";
+@import"cards";
+@import"footer";
+//Somos
+@import"somos";
+//Cursos
+@import"cursos";
+//Galeria
+@import"galeria";
+//Contacto
+@import"contacto";
+
+
+body {
+    font-family:'Raleway', sans-serif !important;
+    background-color:$color-bg;
+}
+
+h1 {
+    font-size: $h1;
+    color: $color-primary;
+    text-align: center;
+}

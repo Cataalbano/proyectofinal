@@ -1,0 +1,115 @@
+h1 {
+            padding-top: 3em 0 0 0;
+            padding-bottom: 1em;
+         
+    @media only screen and (max-width:780px)
+        {
+            padding-top: 3em 0 0 0;
+            padding-bottom: 1em;
+            font-size: 2em;
+            
+        }
+        @media only screen and (max-width:380px)
+        {
+            padding-top: 2em 0 0 1em;
+            padding-bottom: 1em;
+            font-size: 1.5em;
+        }
+}
+
+.formulario {
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+    width:100%;
+}
+
+.speaker-form {
+        width: 80%;
+        padding: 50px;
+        border: none;
+        margin:0 0 40px 0;
+        font-size: 1em;
+        font-weight: bold;
+        color: $color-sencundary;
+
+        header{
+            text-align: center;
+            background-color: #F6F7F8;
+            border: none;
+            border-radius: 3px;
+            width: 80%;
+            margin: 40px 0;
+            padding: 50px;
+        }
+}
+
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px;
+    font-size: 1em;
+    color: $color-sencundary;
+}
+
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+    border: 2px solid red
+}
+
+.form-row select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-row textarea {
+    resize: none;
+    min-height: 200px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.form-row {
+
+        button {
+            color: white;
+            letter-spacing: 1px;
+            font-size: 1em;
+            font-weight: bold;
+            background-color:$color-primary;
+            border:none;
+            padding: 10px 40px;
+            border-radius: 5px;
+            cursor: pointer;
+            
+
+            &:hover {
+                background-color: $color-primary;
+            }
+            &:active{
+                background-color: rgb(255, 222, 132);
+            }
+        }
+}
+
+
+legend { 
+    font-weight: bold;
+    color: $color-sencundary;
+    margin-top: 10px;
+    border-bottom:$color-primary 2px solid;
+}
+
+fieldset {
+    width: 100%;
+}

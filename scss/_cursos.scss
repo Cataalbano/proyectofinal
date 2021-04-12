@@ -1,0 +1,115 @@
+
+  h1 {
+    font-size: $h1;
+    color:$color-primary;
+    padding:20% 20% 5% 20%;
+    font-weight: bolder;
+
+            @media only screen and (max-width:780px)
+                {
+                    font-size: 2.5em;
+                    padding:30% 15% 5% 15%;
+                    font-weight: bolder;
+                    text-align: center;
+                    line-height: 1em;
+                }
+            @media only screen and (max-width:380px)
+                {
+                    font-size: 2em;
+                    padding:40% 10% 5% 10%;
+                    font-weight: bolder;
+                    text-align: center;
+                    line-height: 1em;
+                }
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 2fr 2fr;
+    gap:25px 25px;
+    text-align: center;
+    align-content: center;
+    // padding-left: 15%;
+    padding-bottom: 90px;
+
+        .img-cursos {
+                width: 80%;
+        }
+
+        .destacado-cursos {
+        background-color: gainsboro; 
+        padding: 10%;
+        }   
+
+        .edad-cursos {
+            font-weight: bold;
+            font-size: 2em;
+            color: $color-sencundary;
+            border-top: 0.2em solid coral;
+            padding-top: 5%;
+
+            @media only screen and (max-width:780px)
+                {
+                    font-weight: bold;
+                    font-size: 1.5em;
+                    border-top: 0.2em solid coral;
+                    padding-top: 5%;
+                }
+            @media only screen and (max-width:380px)
+                {
+                    font-weight: bold;
+                    font-size: 1em;
+                    border-top: 0.2em solid coral;
+                    padding-top: 10%;
+                }
+        } 
+
+        .destacado-cursos h2 {
+            font-size: 2.5em;
+            color: coral;
+            font-weight: bolder;
+            padding-bottom: 20px;
+
+            @media only screen and (max-width:780px)
+            {
+                padding-bottom: 15px;
+            }
+        @media only screen and (max-width:380px)
+            {
+                font-size: 2em; 
+                padding-bottom: 10px;
+            }
+        }
+
+            @media only screen and (max-width:780px)
+            {
+                display: grid;
+                grid-template-columns:100%;
+                grid-template-rows: 2fr;
+                gap:25px 25px;
+                text-align: center;
+                align-content: center;
+                
+                // padding:0 50px 90px 65px; 
+            }
+            @media only screen and (max-width:380px)
+            {
+                display: grid;
+                grid-template-columns:100%;
+                grid-template-rows: 2fr;
+                gap:25px 25px;
+                text-align: center;
+                align-content: center;
+                padding-bottom: 90px; 
+                // padding-right: 45px; 
+            }
+    
+}
+
+
+
+
+
+

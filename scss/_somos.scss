@@ -1,0 +1,177 @@
+.container-somos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 700px;
+    
+    h1 {
+        font-size: $h1;
+        font-weight: bold;
+        color:$color-primary;
+        padding: 2em 0 1.5em 0;
+       
+        @media only screen and (max-width:780px)
+        {
+            padding-top: 3em 0 0 0;
+            padding-bottom: 0;
+            font-size: 2.5em;
+            font-weight: bolder;
+        }
+        @media only screen and (max-width:380px)
+        {
+            // padding-top: 4em 0 0 0;
+            padding-bottom: 0;
+            font-size: 2.5em;
+        }
+    }
+    .paragraph-somos {
+            font-weight: bolder;
+            color: $color-sencundary;
+            font-size: 1.5em;
+            letter-spacing: 2%;
+            line-height: 2.5rem;
+            width: 70%;
+            text-align: center;
+            padding-top: 15px;
+            border-bottom: $color-primary 2px solid;
+
+            @media only screen and (max-width:780px)
+                {
+                    font-size: 1em; 
+                   
+                    line-height: 2rem;
+                }
+            @media only screen and (max-width:380px)
+                {
+                    font-size: 0.8em; 
+                    line-height: 1.5em;
+                    width: 90%;
+                }
+    }
+            
+    @media only screen and (max-width:380px)
+    {
+    padding-top: 10px;
+    height: 380px;
+    }
+}
+
+.info-instituto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    // padding-bottom: 40px;
+
+           article {
+                text-align: center;
+                width: 55%;
+                padding:20px;
+
+                h2{
+                    color: $color-primary;
+                    font-weight: bolder;
+                    padding-bottom: 35px;
+                    
+                }
+                p {
+                    background-color: gainsboro;
+                    padding: 50px;
+                    line-height: 1.5em;
+                }
+             
+                @media only screen and (max-width:780px)
+                    {
+                       width: 80%;
+                    }
+                @media only screen and (max-width:380px)
+                    {
+                        width: 80%;
+                           
+                    }
+            }
+            @media only screen and (max-width:320px)
+                    {
+                        padding-bottom: 70px;   
+                    }
+}
+
+.section-metodo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        background-color: rgb(219, 217, 217);
+
+        h2 {
+            display: flex;
+            align-content: center;
+            line-height: 1em;
+            font-weight: bolder;
+            font-size: 3em;
+            color: $color-primary;
+            width: 100%;
+            padding: 10% 0 10% 25% ;
+            border-bottom: $color-primary 2px solid;
+
+        @media only screen and (max-width:780px)
+        {
+            line-height: 1em;
+            font-weight: bolder;
+            font-size: 2.5em; 
+            text-align: center;
+            padding: 10% 15% 10% 15%;
+           
+        }
+        @media only screen and (max-width:380px)
+            {
+                line-height: 1em;
+                font-weight: bolder;
+                font-size: 2em;
+                text-align: center;
+            }
+
+        }
+    article {
+        width: 40%;
+        text-align: center;
+        padding:30px 0px 50px 0px;
+
+        @media only screen and (max-width:780px)
+        {
+        width: 50%;
+        text-align: center;
+        padding:30px 15px 50px 15px;
+             
+        }
+        @media only screen and (max-width:380px)
+        {
+            width: 30%;
+            text-align: center;
+            padding:30px 10px 30px 10px;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            color: $color-sencundary;  
+            padding-top: 10px;
+           
+            @media only screen and (max-width:780px)
+            {
+                font-size: 1.5em;
+                color: $color-sencundary;  
+                padding-top: 5px;   
+            }
+            @media only screen and (max-width:380px)
+            {
+                font-size: 1em;
+                color: $color-sencundary;  
+                padding-top: 5px;    
+            }
+        
+        }
+    }
+}
+
